@@ -6,9 +6,16 @@
 			document.getElementById('navList').classList.toggle('hidden');
 		});
 	});
+  import { goto } from '$app/navigation';
+
+  function navigateToHome() {
+    goto('/routeso');
+  }
 </script>
 
-<nav class="bg-black p-2 mt-0 w-full border-2 border-gray-400">
+
+
+<nav class="bg-black p-2 mt-0 w-full border-2 border-blue-200">
 	<div class="container mx-auto flex flex-wrap items-center justify-between">
 		<div class="flex items-center">
 			<a class="text-white no-underline hover:text-white hover:no-underline" href="/">
@@ -21,10 +28,9 @@
 				class="list-reset flex flex-col md:flex-row md:flex-none items-end md:items-center hidden md:flex"
 				id="navList"
 			>
+				
 				<li class="mr-3">
-					<a class="inline-block py-2 px-4 text-white no-underline bg-black shadow-lg" href="#"
-						>Home</a
-					>
+					<a on:click={navigateToHome} class="inline-block py-2 px-4 text-white no-underline bg-black shadow-lg" href="/routeso">Home</a>
 				</li>
 				<li class="mr-3">
 					<a class="inline-block py-2 px-4 text-white no-underline bg-black shadow-lg" href="#"
@@ -49,7 +55,7 @@
 				<li class="ml-4 md:ml-6 mt-4 md:mt-0">
 					<a
 						class="inline-block py-2 px-4 text-black no-underline bg-purple-200 rounded-full"
-						href="#">Join Us</a
+						href="https://forms.gle/ead7AyeCpLN3GKeX8">Join Us</a
 					>
 				</li>
 			</ul>
