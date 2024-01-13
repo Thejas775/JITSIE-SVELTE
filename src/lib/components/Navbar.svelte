@@ -6,11 +6,7 @@
 			document.getElementById('navList').classList.toggle('hidden');
 		});
 	});
-  import { goto } from '$app/navigation';
-
-  function navigateToHome() {
-    goto('/routeso');
-  }
+  
 </script>
 
 
@@ -30,7 +26,7 @@
 			>
 				
 				<li class="mr-3">
-					<a on:click={navigateToHome} class="inline-block py-2 px-4 text-white no-underline bg-black shadow-lg" href="/routeso">Home</a>
+					<a href="/" class="inline-block py-2 px-4 text-white no-underline bg-black shadow-lg" href="/routeso">Home</a>
 				</li>
 				<li class="mr-3">
 					<a class="inline-block py-2 px-4 text-white no-underline bg-black shadow-lg" href="#"
