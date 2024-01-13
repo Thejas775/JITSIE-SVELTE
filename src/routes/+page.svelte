@@ -132,7 +132,7 @@
 		{#if showCardId == 0}
 			<div in:blur={{ amount: 10 }}>
 				<div class="md:flex mt-16 sm:w-[85%] mx-auto">
-					<img src="img/startupseries.png" alt="" class="w-[30rem] h-96 rounded-2xl object-cover" />
+					<img src="img/image.png" alt="" class="w-[30rem] h-96 rounded-2xl object-cover" />
 					<div class="mt-12 md:ml-20 md:w-[50%]">
 						<h1 class="text-white text-3xl font-bold">WEN Think Startup Series</h1>
 						<br />
