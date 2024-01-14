@@ -71,7 +71,7 @@
 			</defs>
 		</svg>
 	</div>
-	<div class="absolute right-0 sm:right-10 md:top-4 sm:top-[17rem] top-[20rem]">
+	<div class="absolute right-0 sm:right-10 md:top-4 sm:top-[50rem] top-[20rem]">
 		<img
 			src="/img/jt.webp"
 			alt=""
