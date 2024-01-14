@@ -6,10 +6,7 @@
 			document.getElementById('navList').classList.toggle('hidden');
 		});
 	});
-  
 </script>
-
-
 
 <nav class="bg-black p-2 mt-0 w-full border-2 border-blue-200">
 	<div class="container mx-auto flex flex-wrap items-center justify-between">
@@ -24,9 +21,10 @@
 				class="list-reset flex flex-col md:flex-row md:flex-none items-end md:items-center hidden md:flex"
 				id="navList"
 			>
-				
 				<li class="mr-3">
-					<a href="/" class="inline-block py-2 px-4 text-white no-underline bg-black shadow-lg">Home</a>
+					<a href="/" class="inline-block py-2 px-4 text-white no-underline bg-black shadow-lg"
+						>Home</a
+					>
 				</li>
 				<li class="mr-3">
 					<a class="inline-block py-2 px-4 text-white no-underline bg-black shadow-lg" href="#"
@@ -39,7 +37,7 @@
 					>
 				</li>
 				<li class="mr-3">
-					<a class="inline-block py-2 px-4 text-white no-underline bg-black shadow-lg" href="/team"
+					<a class="inline-block py-2 px-4 text-white no-underline bg-black shadow-lg" href="#"
 						>Team</a
 					>
 				</li>
