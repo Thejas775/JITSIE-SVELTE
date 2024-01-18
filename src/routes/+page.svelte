@@ -27,7 +27,7 @@
 </script>
 
 <div class="relative">
-	<div class="md:absolute md:top-[14rem] left-16 mt-4 sm:ml-10 ml-6">
+	<div class="md:absolute md:top-[10rem] left-16 mt-4 sm:ml-10 ml-6">
 		<h1 class="text-white font-black text-6xl leading-[1.16]">
 			WELCOME TO <br /> JITSIE IITM <br /> SOCIETY
 		</h1>
@@ -44,7 +44,7 @@
 		</div>
 	</div>
 
-	<div class="md:absolute md:right-0 md:top-5 sm:mt-0 mt-16">
+	<div class="md:absolute md:right-0 md:-top-16 sm:mt-16 mt-20">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			class="md:w-[850px] md:h-[591px] scale-120 sm:scale-100"
@@ -71,7 +71,7 @@
 			</defs>
 		</svg>
 	</div>
-	<div class="absolute right-0 sm:right-10 md:top-4 sm:top-[50rem] top-[20rem]">
+	<div class="absolute right-0 sm:right-10 md:top-1 sm:top-[22.5rem] top-[29rem]">
 		<img
 			src="/img/jt.webp"
 			alt=""
